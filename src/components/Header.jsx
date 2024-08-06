@@ -21,8 +21,8 @@ function Header() {
                                 My Acoount
                             </button>
                             <ul className="dropdown-menu">
-                                <li><Link className="dropdown-item" to="#">Sign in</Link></li>
-                                <li><Link className="dropdown-item" to="#">sign up</Link></li>
+                                <li><Link className="dropdown-item" to="/Login">Sign in</Link></li>
+                                <li><Link className="dropdown-item" to="/Registration">sign up</Link></li>
                             </ul>
                         </div>
                         <div className="dropdown">

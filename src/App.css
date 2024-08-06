@@ -482,3 +482,143 @@ width: 100px;
     margin: 8px 1px;
     text-transform: uppercase;
 }
+
+
+/* login page ki css hai yaha par ok
+ */
+
+ *,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff; /* Changed to white */
+  font-family: 'Poppins', sans-serif;
+}
+
+.app {
+  position: relative;
+  height: 100vh;
+}
+
+.background {
+  width: 430px;
+  height: 520px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.background .shape {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.shape:first-child {
+  background: linear-gradient(#1845ad, #23a2f6);
+  left: -80px;
+  top: -80px;
+}
+
+.shape:last-child {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  right: -30px;
+  bottom: -80px;
+}
+
+.form {
+  height: 520px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.05); /* Changed to a light black tint */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(0, 0, 0, 0.1); /* Adjusted border color */
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2); /* Adjusted shadow color */
+  padding: 50px 35px;
+  color: #000000; /* Changed to black */
+}
+
+.form h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  color: #000000; /* Changed to black */
+}
+
+.form label {
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000; /* Changed to black */
+}
+
+.form input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1); /* Changed to a light black tint */
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000; /* Changed to black */
+}
+
+.form ::placeholder {
+  color: #333333; /* Changed to dark grey */
+}
+
+.form button {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #000000; /* Changed to black */
+  color: #ffffff; /* Changed to white */
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social {
+  margin-top: 30px;
+  display: flex;
+}
+
+.social div {
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(0, 0, 0, 0.1); /* Changed to a light black tint */
+  color: #000000; /* Changed to black */
+  text-align: center;
+}
+
+.social div:hover {
+  background-color: rgba(0, 0, 0, 0.2); /* Changed hover to a darker black tint */
+}
+
+.social .fb {
+  margin-left: 25px;
+}
+
+.social i {
+  margin-right: 4px;
+}
+
+
+/* regestration */

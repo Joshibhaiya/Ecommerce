@@ -8,12 +8,16 @@ import Checkout from './components/Checkout'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 import { Route, Routes } from 'react-router-dom'
+import Login from './components/Login'
+import Registration from './components/Registration'
 
 function App() {
   return (
     <>
       <Header />
       <Routes>
+        <Route path="/Login" element={<Login/>}/>
+        <Route path="/Registration" element={<Registration/>} />
         <Route path="/" element={<Home/>} />
         <Route path="/Shop" element={<Shop/>} />
         <Route path="/ShopDetails" element={<ShopDetails/>} />
